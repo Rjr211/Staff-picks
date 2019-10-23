@@ -2,11 +2,6 @@
     font-family: 'Lateef';
 }
 
-@mixin brand-slogan{
-    font-size: 12px;
-    display: inline;
-}
-
 body{
     display: flex;
 }
@@ -24,19 +19,14 @@ body{
 }
 
 #brand-slogan-1{
-    @include brand-slogan;
-    margin-left: 25%;
-    margin-right: 25%;
+    font-size: 12px;
+    text-align: center;
 }
 
-#brand-slogan-2{
-    @include brand-slogan;
-    margin-left: -25%;
-    margin-right: -25%;
-}
 
 #header-line{
-    border-bottom: solid red 1px;
+    border-bottom: solid #000 1px;
+    box-shadow: 0 4px 2px -2px gray;
     margin-left: 25%;
     margin-right: 25%;
 }

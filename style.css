@@ -16,20 +16,12 @@ body {
 
 #brand-slogan-1 {
   font-size: 12px;
-  display: inline;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-#brand-slogan-2 {
-  font-size: 12px;
-  display: inline;
-  margin-left: -25%;
-  margin-right: -25%;
+  text-align: center;
 }
 
 #header-line {
-  border-bottom: solid red 1px;
+  border-bottom: solid #000 1px;
+  box-shadow: 0 4px 2px -2px gray;
   margin-left: 25%;
   margin-right: 25%;
 }
