@@ -1,0 +1,37 @@
+body {
+  display: flex;
+}
+
+#header {
+  width: 100%;
+}
+
+.brand-name {
+  font-family: "Lateef";
+  text-transform: uppercase;
+  letter-spacing: 2vh;
+  font-size: 23px;
+  text-align: center;
+}
+
+#brand-slogan-1 {
+  font-size: 12px;
+  display: inline;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#brand-slogan-2 {
+  font-size: 12px;
+  display: inline;
+  margin-left: -25%;
+  margin-right: -25%;
+}
+
+#header-line {
+  border-bottom: solid red 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */
