@@ -1,6 +1,9 @@
-@mixin gFont {
-    font-family: 'Lateef';
-}
+//import google font
+@import url(http://fonts.googleapis.com/css?family=Amiri|Cormorant|DM+Serif+Text|Lateef|Noticia+Text&display=swap);
+
+//Sass variables
+$g-font:'Lateef';
+
 
 body{
     display: flex;
@@ -11,7 +14,7 @@ body{
 }
 
 .brand-name{
-    @include gFont;
+    font-family: $g-font;
     text-transform: uppercase;
     letter-spacing: 2vh;
     font-size: 23px;
