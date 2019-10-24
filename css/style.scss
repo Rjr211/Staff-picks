@@ -3,14 +3,27 @@
 
 //Sass variables
 $g-font:'Lateef';
-
+$fullWidth: 100%;
 
 body{
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 #header{
-  width: 100%;
+  width: $fullWidth;
+  margin: 0;
+  padding: 0;
+}
+
+.header-info{
+    width: $fullWidth;
+    height: 35px;
+    background-color: #696969;
+    margin: 0;
+    padding: 0;
+
 }
 
 .brand-name{
