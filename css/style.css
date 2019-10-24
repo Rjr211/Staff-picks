@@ -11,7 +11,10 @@ body {
   padding: 0;
 }
 
-.header-info {
+#header-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 35px;
   background-color: #696969;
@@ -19,24 +22,39 @@ body {
   padding: 0;
 }
 
+.header-info-1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #fff;
+}
+.header-info-1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .brand-name {
   font-family: "Lateef";
   text-transform: uppercase;
   letter-spacing: 2vh;
-  font-size: 23px;
+  font-size: 25px;
   text-align: center;
 }
 
 #brand-slogan-1 {
-  font-size: 12px;
+  font-size: 12.5px;
   text-align: center;
 }
 
 #header-line {
-  border-bottom: solid #000 1px;
+  border-top: solid #000 1px;
   box-shadow: 0 4px 2px -2px gray;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: -10px;
 }
 
 /*# sourceMappingURL=style.css.map */
